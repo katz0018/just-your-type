@@ -21,10 +21,6 @@ body {
   margin: 0;
 }
 
-.title {
-  background-color: #ffff;
-}
-
 .title h1, h2 {
 font-family: 'Anton', sans-serif;
 color: #000;
@@ -45,19 +41,7 @@ color: #000;
   background-color: #000;
 }
 
-.poem {
-  margin: 0 auto;
-}
-
 .text p {
   font-family: 'Just Me Again Down Here', cursive;
-  color: #ffff;
-}
-
-.text-1 {
-  transition: rotate(1080deg);
-  transition-timing-function: ease-in;
-}
-
-.text-2 {
+  color: #fff;
 }
