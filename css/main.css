@@ -1,29 +1,10 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
   margin: 0;
 }
 
 .title h1, h2 {
-font-family: 'Anton', sans-serif;
-color: #000;
+  font-family: "Anton", sans-serif;
+  color: #000;
 }
 
 .title h1 span {
@@ -42,6 +23,6 @@ color: #000;
 }
 
 .text p {
-  font-family: 'Just Me Again Down Here', cursive;
+  font-family: "Just Me Again Down Here", cursive;
   color: #fff;
 }
